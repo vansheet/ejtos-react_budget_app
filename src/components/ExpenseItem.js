@@ -32,7 +32,7 @@ const ExpenseItem = (props) => {
         };
 
         dispatch({
-            type: 'SUBSTRACT_EXPENSE',
+            type: 'REDUCE_EXPENSE',
             payload: expense,
         });
 
