@@ -45,7 +45,7 @@ const ExpenseItem = (props) => {
         <td>{props.name}</td>
         <td>{currency}{props.cost}</td>
         <td><button onClick={event=> increaseAllocation(props.name)}>+</button></td>
-        <td align="center"><button onClick={event=> decreaseAllocation(props.name)}>-</button></td>
+        <td><button onClick={event=> decreaseAllocation(props.name)}>-</button></td>
         <td><TiDelete size='1.5em'ncolor="red" onClick={handleDeleteExpense}></TiDelete></td>
         </tr>
     );
