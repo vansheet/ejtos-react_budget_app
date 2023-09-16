@@ -4,7 +4,7 @@ import { AppContext } from '../context/AppContext';
 
 const Currency = (props) => {
   const [ currency, setCurrency ] = useState('');
-  const { dispatch, currency } = useContext(AppContext);
+  const { dispatch, } = useContext(AppContext);
 
   const updateCurrency = (event) => {
     /*console.log(currency+"....A..."+event.target.value);
